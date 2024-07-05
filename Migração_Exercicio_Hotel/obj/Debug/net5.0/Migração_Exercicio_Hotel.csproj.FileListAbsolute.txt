@@ -40,3 +40,4 @@ C:\Users\aconceicao\source\repos\Migração_Exercicio_Hotel\Migração_Exercicio
 C:\Users\aconceicao\source\repos\Migração_Exercicio_Hotel\Migração_Exercicio_Hotel\obj\Debug\net5.0\Migração_Exercicio_Hotel.csproj.CopyComplete
 C:\Users\aconceicao\source\repos\Migração_Exercicio_Hotel\Migração_Exercicio_Hotel\obj\Debug\net5.0\Razor\Views\Hotel\Index.cshtml.g.cs
 C:\Users\aconceicao\source\repos\Migração_Exercicio_Hotel\Migração_Exercicio_Hotel\obj\Debug\net5.0\Razor\Views\Reserva\Index.cshtml.g.cs
+C:\Users\aconceicao\source\repos\Migração_Exercicio_Hotel\Migração_Exercicio_Hotel\obj\Debug\net5.0\Razor\Views\Consulta\Index.cshtml.g.cs
