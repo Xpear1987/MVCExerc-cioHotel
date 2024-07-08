@@ -12,5 +12,10 @@ namespace Migração_Exercicio_Hotel.Controllers
         {
             return View();
         }
+
+        public IActionResult Reserva()
+        {
+            return View();
+        }
     }
 }

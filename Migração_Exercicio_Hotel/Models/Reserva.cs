@@ -9,7 +9,6 @@ namespace Migração_Exercicio_Hotel.Models
 {
     public class Reserva
     {
-        [Key]
         public int ReservaId { get; set; }
         public string DataEntrada { get; set; }
         public string DataSaida { get; set; }

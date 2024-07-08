@@ -12,5 +12,14 @@ namespace Migração_Exercicio_Hotel.Controllers
         {
             return View();
         }
+
+        public IActionResult Editar()
+        {
+            return View();
+        }
+        public IActionResult Cancelar()
+        {
+            return View();
+        }
     }
 }
