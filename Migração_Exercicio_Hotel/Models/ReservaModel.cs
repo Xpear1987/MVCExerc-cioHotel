@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Migração_Exercicio_Hotel.Models
 {
-    public class Reserva
+    public class ReservaModel
     {
         public int ReservaId { get; set; }
         public string DataEntrada { get; set; }
         public string DataSaida { get; set; }
-        [ForeignKey("Hotel")]
+        [ForeignKey("HotelModel")]
         public int HotelId { get; set; }
-        public Hotel Hotel { get; set; }
+        public HotelModel Hotel { get; set; }
     }
 }

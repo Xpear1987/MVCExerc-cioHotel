@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Migração_Exercicio_Hotel.Data;
 
 namespace Migração_Exercicio_Hotel
 {
@@ -24,6 +26,8 @@ namespace Migração_Exercicio_Hotel
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddEntityFrameworkSqlServer()
+                .AddDbContext<BancoContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DataBase")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

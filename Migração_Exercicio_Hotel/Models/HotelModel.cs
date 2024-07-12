@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Migração_Exercicio_Hotel.Models
 {
-    public class Hotel
+    public class HotelModel
     {
+        [Key]
         public int HotelId { get; set; }
         public string Nome { get; set; }
         public string Cidade { get; set; }
